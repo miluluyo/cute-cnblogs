@@ -1,12 +1,12 @@
 <div align="center">
   
-#  cute-cnblogs
+#  cute-cnblogs ღゝ◡╹)ノ♡
 
 </div>
 
 ##  介绍
 
-可爱的博客园样式美化、自定义博客园样式 :wink:
+可爱的博客园样式美化、自定义博客园样式  :wink:
 
 ##  博客示例
 
