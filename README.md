@@ -20,11 +20,16 @@
 
 ## 功能
 
-* :blue_heart: 
-* :purple_heart: 
-* :heart: 
-* :green_heart: 
-* :yellow_heart: 
+* :apple: 导航点点动效随鼠标而动
+* :tangerine: 导航栏自定义
+* :cherries: 页面诗意诗句模块
+* :banana: 看板娘-猫(ฅ´ω`ฅ)
+* :peach: 音乐-网易云
+* :pineapple: 上吊的猫（PS：回到顶部）
+* :watermelon: 底部跳动的鱼<・)))><<
+* :grapes: 点击页面跳动的小豆子及可爱的文字
+* :lemon: 评论增加OωO聊天表情
+* :tomato: 页面不同的导航背景及人物背景
  
  ## 使用方法
 
