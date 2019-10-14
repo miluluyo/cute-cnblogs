@@ -14,6 +14,8 @@
 
 ![Image text](https://raw.githubusercontent.com/miluluyo/photo_gallery/master/cute-cnblogs.jpg)  
 
+## 功能
+
 * :blue_heart: 
 * :purple_heart: 
 * :heart: 
