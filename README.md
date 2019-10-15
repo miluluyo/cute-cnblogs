@@ -34,6 +34,11 @@
  
  ## 使用方法
 
+* 首先记得申请JS权限
+* 其次博客皮肤选择 SimpleMemor
+* 勾选禁用模板默认CSS
+* 最后复制以下代码，并根据参数更改数据（PS：路径可进行更改，自行down引入到文件中，并更改路径）
+
 **页面定制CSS代码**
 
 ``` css
@@ -148,7 +153,7 @@
   <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://blog-static.cnblogs.com/files/elkyo/mouse-click.js"></script>
 ```
 
- ## 功能讲解
+ ## 参数说明
 
 <table style="width:866px;text-align: center;">
 	<thead>
