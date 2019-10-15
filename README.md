@@ -161,9 +161,3 @@ clicktext|new Array|new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿�
 githuburl|字符串|https://github.com/miluluyo|个人的github链接
 
 
-<table border="1">
-<tr>
-  <td>123</td>
-  <td>465</td>
-</tr>
-</table>
