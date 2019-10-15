@@ -149,16 +149,6 @@
 ```
 
  ## 功能讲解
- 
-名称|类型|默认值/实例|描述
---|:--:|--:|--:
-Youself|字符串|https://www.cnblogs.com/miluluyo/|个人博客园首链接
-custom|数组|[{name:'相册',<br/>link:'https://www.cnblogs.com/elkyo/gallery.html',<br/>istarget:false},<br/>{name:'技能树',<br/>link:'https://miluluyo.github.io/',<br/>istarget:true},<br/>{name:'留言板',<br/>link:'https://miluluyo.github.io/p/11578505.html',<br/>istarget:false}]|导航信息<br/>name 导航名<br/>link 导航链接<br/>istarget true跳转到新页面上，false当前页面打开
-Friends_of_the|字符串|p/11633791.html|友链文章的后缀名，若字符串为空则不显示友链
-resume|对象|{"name":"麋鹿鲁哟","link":"https://www.cnblogs.com/miluluyo/","headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg","introduction":"大道至简，知易行难。"}|自己的友链信息<br/>name 导航名<br/>link 导航链接<br/>headurl 头像<br/>introduction 语录
-unionbox|数组|[{"name":"麋鹿鲁哟","introduction":"生活是没有标准答案的。","url":"https://www.cnblogs.com/miluluyo","headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"},{"name":"麋鹿鲁哟的技能树","introduction":"大道至简，知易行难。","url":"https://miluluyo.github.io/","headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"}]|友链数组<br/>name 昵称<br/>introduction 标语<br/>url 链接地址<br/>headurl 头像地址
-clicktext|new Array|new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿鲁哟","生活是没有标准答案的。  ——麋鹿鲁哟")|点击页面时候的弹出的文字显示
-githuburl|字符串|https://github.com/miluluyo|个人的github链接
 
 <table>
 	<thead>
