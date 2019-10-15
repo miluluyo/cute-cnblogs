@@ -45,15 +45,20 @@
 * 首先记得申请JS权限
 * 其次博客皮肤选择 SimpleMemor
 * 勾选禁用模板默认CSS
+
 <br/>
+
 * 创建一个新随笔（这里使用选项中的TinyMCE(推荐)来编写的） —— “友链”；
 * 点击 “编辑 HTML 源代码” 插入以下代码，点击更新；
 * 只勾选 高级选项中的 “发布”、“允许评论”;
+
 ``` html
 <p style="text-align: center;">欢迎来到我的友链小屋</p>
 <div class="friendsbox">&nbsp;</div>
-``` 
+```
+
 <br/>
+
 * 最后分别复制以下区域代码，并根据参数更改数据（PS：路径可进行更改也可不更改，自行down文件上传到博客园文件中，并更改引入路径）
 
 >建议将https://blog-static.cnblogs.com/files/elkyo/cute-cnblogs.css引入内的内容放到 页面定制CSS代码 区域
