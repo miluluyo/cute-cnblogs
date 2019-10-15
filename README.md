@@ -155,34 +155,34 @@
 		<tr>
 	 		<th>名称</th>
 	 		<th>类型</th>
-	 		<th style="max-width: 350px">默认值/实例</th>
-	 		<th style="max-width: 250px">描述</th>
+	 		<th>默认值/实例</th>
+	 		<th>描述</th>
 	 	</tr>
 	</thead>
  	<tbody>
 	 	<tr>
 	 		<td>Youself</td>
 	 		<td>字符串</td>
-	 		<td style="max-width: 350px">https://www.cnblogs.com/miluluyo/</td>
-	 		<td style="max-width: 250px">个人博客园首链接</td>
+	 		<td>https://www.cnblogs.com/miluluyo/</td>
+	 		<td>个人博客园首链接</td>
 	 	</tr>
 	 	<tr>
 	 		<td>custom</td>
 	 		<td>数组</td>
-	 		<td style="max-width: 350px"><textarea style="width: 650px;height: 150px;">[{
-   name:'相册',
-   link:'https://www.cnblogs.com/elkyo/gallery.html',
-   istarget:false
-  },{
-   name:'技能树',
-   link:'https://miluluyo.github.io/',
-   istarget:true
-  },{
-   name:'留言板',
-   link:'https://miluluyo.github.io/p/11578505.html',
-   istarget:false
-  }]</textarea></td>
-	 		<td style="max-width: 250px">导航信息<br>
+	 		<td>[{<br>
+   name:'相册',<br>
+   link:'https://www.cnblogs.com/elkyo/gallery.html',<br>
+   istarget:false<br>
+  },{<br>
+   name:'技能树',<br>
+   link:'https://miluluyo.github.io/',<br>
+   istarget:true<br>
+  },{<br>
+   name:'留言板',<br>
+   link:'https://miluluyo.github.io/p/11578505.html',<br>
+   istarget:false<br>
+  }]</td>
+	 		<td>导航信息<br>
 name 导航名<br>
 link 导航链接<br>
 istarget true跳转到新页面上，false当前页面打开</td>
@@ -190,19 +190,19 @@ istarget true跳转到新页面上，false当前页面打开</td>
 	 	<tr>
 	 		<td>Friends_of_the</td>
 	 		<td>字符串</td>
-	 		<td style="max-width: 350px">11633791</td>
-	 		<td style="max-width: 250px">友链文章的后缀名，若字符串为空则不显示友链</td>
+	 		<td>11633791</td>
+	 		<td>友链文章的后缀名，若字符串为空则不显示友链</td>
 	 	</tr>
 	 	<tr>
 	 		<td>resume</td>
 	 		<td>对象</td>
-	 		<td style="max-width: 350px"><textarea style="width: 650px;height: 150px;">{
-      "name":"麋鹿鲁哟",
-      "link":"https://www.cnblogs.com/miluluyo/",
-      "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg",
-      "introduction":"大道至简，知易行难。"
-  }</textarea></td>
-	 		<td style="max-width: 250px">自己的友链信息<br>
+	 		<td>{<br>
+      "name":"麋鹿鲁哟",<br>
+      "link":"https://www.cnblogs.com/miluluyo/",<br>
+      "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg",<br>
+      "introduction":"大道至简，知易行难。"<br>
+  }</td>
+	 		<td>自己的友链信息<br>
 name 导航名<br>
 link 导航链接<br>
 headurl 头像<br>
@@ -211,18 +211,18 @@ introduction 语录</td>
 	 	<tr>
 	 		<td>unionbox</td>
 	 		<td>数组</td>
-	 		<td style="max-width: 350px"><textarea style="width: 650px;height: 150px;">[{
-      "name":"麋鹿鲁哟",
-      "introduction":"生活是没有标准答案的。",
-      "url":"https://www.cnblogs.com/miluluyo",
-      "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
-    },{
-      "name":"麋鹿鲁哟的技能树",
-      "introduction":"大道至简，知易行难。",
-      "url":"https://miluluyo.github.io/",
-      "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
-    }]</textarea></td>
-	 		<td style="max-width: 250px">友链数组<br>
+	 		<td>[{<br>
+      "name":"麋鹿鲁哟",<br>
+      "introduction":"生活是没有标准答案的。",<br>
+      "url":"https://www.cnblogs.com/miluluyo",<br>
+      "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"<br>
+    },{<br>
+      "name":"麋鹿鲁哟的技能树",<br>
+      "introduction":"大道至简，知易行难。",<br>
+      "url":"https://miluluyo.github.io/",<br>
+      "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"<br>
+    }]</td>
+	 		<td>友链数组<br>
 name 昵称<br>
 introduction 标语<br>
 url 链接地址<br>
@@ -231,14 +231,14 @@ headurl 头像地址</td>
 	 	<tr>
 	 		<td>clicktext</td>
 	 		<td>新数组</td>
-	 		<td style="max-width: 350px">new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿鲁哟","生活是没有标准答案的。  ——麋鹿鲁哟"),</td>
-	 		<td style="max-width: 250px">点击页面时候的弹出显示</td>
+	 		<td>new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿鲁哟",<br>"生活是没有标准答案的。  ——麋鹿鲁哟"),</td>
+	 		<td>点击页面时候的弹出显示</td>
 	 	</tr>
 	 	<tr>
 	 		<td>githuburl</td>
 	 		<td>字符串</td>
-	 		<td style="max-width: 350px">https://github.com/miluluyo</td>
-	 		<td style="max-width: 250px">github链接</td>
+	 		<td>https://github.com/miluluyo</td>
+	 		<td>github链接</td>
 	 	</tr>
  	</tbody>
 </table>
