@@ -114,6 +114,8 @@
         "url":"https://miluluyo.github.io/",
         "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
       }],
+    /**/
+    clicktext:new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿鲁哟","生活是没有标准答案的。  ——麋鹿鲁哟"),
     /*github链接*/
     githuburl:'https://github.com/miluluyo'
   })
