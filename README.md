@@ -114,7 +114,7 @@
         "url":"https://miluluyo.github.io/",
         "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
       }],
-    /**/
+    /*点击页面时候的弹出文本显示*/
     clicktext:new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿鲁哟","生活是没有标准答案的。  ——麋鹿鲁哟"),
     /*github链接*/
     githuburl:'https://github.com/miluluyo'
@@ -256,7 +256,7 @@ headurl 头像地址</td>
 	 		<td>clicktext</td>
 	 		<td>新数组</td>
 	 		<td>new Array("ヾ(◍°∇°◍)ﾉﾞ加油哟~ ——麋鹿鲁哟",<br>"生活是没有标准答案的。  ——麋鹿鲁哟"),</td>
-	 		<td>点击页面时候的弹出显示</td>
+	 		<td>点击页面时候的弹出文本显示</td>
 	 	</tr>
 	 	<tr>
 	 		<td>githuburl</td>
