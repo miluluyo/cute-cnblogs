@@ -150,7 +150,7 @@
 
  ## 功能讲解
 
-<table style="width:866px">
+<table style="width:866px;text-align: center;">
 	<thead>
 		<tr>
 	 		<th>名称</th>
@@ -169,7 +169,7 @@
 	 	<tr>
 	 		<td>custom</td>
 	 		<td>数组</td>
-	 		<td>[{
+	 		<td><textarea style="width: 650px;height: 150px;">[{
    name:'相册',
    link:'https://www.cnblogs.com/elkyo/gallery.html',
    istarget:false
@@ -181,10 +181,10 @@
    name:'留言板',
    link:'https://miluluyo.github.io/p/11578505.html',
    istarget:false
-  }]</td>
-	 		<td>导航信息
-name 导航名
-link 导航链接
+  }]</textarea></td>
+	 		<td>导航信息<br>
+name 导航名<br>
+link 导航链接<br>
 istarget true跳转到新页面上，false当前页面打开</td>
 	 	</tr>
 	 	<tr>
@@ -196,22 +196,22 @@ istarget true跳转到新页面上，false当前页面打开</td>
 	 	<tr>
 	 		<td>resume</td>
 	 		<td>对象</td>
-	 		<td>{
+	 		<td><textarea style="width: 650px;height: 150px;">{
       "name":"麋鹿鲁哟",
       "link":"https://www.cnblogs.com/miluluyo/",
       "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg",
       "introduction":"大道至简，知易行难。"
-  }</td>
-	 		<td>自己的友链信息
-name 导航名
-link 导航链接
-headurl 头像
+  }</textarea></td>
+	 		<td>自己的友链信息<br>
+name 导航名<br>
+link 导航链接<br>
+headurl 头像<br>
 introduction 语录</td>
 	 	</tr>
 	 	<tr>
 	 		<td>unionbox</td>
 	 		<td>数组</td>
-	 		<td>[{
+	 		<td><textarea style="width: 650px;height: 150px;">[{
       "name":"麋鹿鲁哟",
       "introduction":"生活是没有标准答案的。",
       "url":"https://www.cnblogs.com/miluluyo",
@@ -221,11 +221,11 @@ introduction 语录</td>
       "introduction":"大道至简，知易行难。",
       "url":"https://miluluyo.github.io/",
       "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
-    }]</td>
-	 		<td>友链数组
-name 昵称
-introduction 标语
-url 链接地址
+    }]</textarea></td>
+	 		<td>友链数组<br>
+name 昵称<br>
+introduction 标语<br>
+url 链接地址<br>
 headurl 头像地址</td>
 	 	</tr>
 	 	<tr>
