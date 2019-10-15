@@ -56,18 +56,10 @@
 <br/>
 * 最后分别复制以下区域代码，并根据参数更改数据（PS：路径可进行更改也可不更改，自行down文件上传到博客园文件中，并更改引入路径）
 
-**页面定制CSS代码**
-
-``` css
-  #home{display:none}
-  .showpage {position: fixed;width: 100%;height: 100%;text-align: center;left: 0;top: 0;}
-  .showpage img{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
-``` 
 
 **页首Html代码**
 
 ``` html
-  <div class="showpage" id="showpage"> <img src="https://images.cnblogs.com/cnblogs_com/elkyo/1566714/o_showpage .gif"> <div>
   <link rel='stylesheet' href='https://blog-static.cnblogs.com/files/elkyo/cute-cnblogs.css'>
   <link rel='stylesheet' href='https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css'>
   <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/siyuan.css" />
