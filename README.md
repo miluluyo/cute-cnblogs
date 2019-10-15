@@ -150,7 +150,7 @@
 
  ## 功能讲解
 
-<table>
+<table style="width:866px">
 	<thead>
 		<tr>
 	 		<th>名称</th>
