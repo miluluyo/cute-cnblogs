@@ -191,7 +191,7 @@ istarget true跳转到新页面上，false当前页面打开</td>
 	 		<td>Friends_of_the</td>
 	 		<td>字符串</td>
 	 		<td>11633791</td>
-	 		<td>友链文章的后缀名，若字符串为空则不显示友链</td>
+	 		<td>友链文章的后缀名，</td>若字符串为空则不显示友链</td>
 	 	</tr>
 	 	<tr>
 	 		<td>resume</td>
