@@ -61,8 +61,6 @@
   miluframe({
       /*个人链接地址*/
     Youself:'https://www.cnblogs.com/miluluyo/',
-    /*自己的友链页面后缀*/
-    Friends_of_the:'p/11633791.html',
     /*导航栏信息*/
     custom:[{
       name:'留言板',
@@ -73,6 +71,8 @@
       link:'https://miluluyo.github.io/',
       istarget:true
     }],
+    /*自己的友链页面后缀*/
+    Friends_of_the:'p/11633791.html',
     /*自己的友链信息*/
     resume:{
         "name":"麋鹿鲁哟",
@@ -147,3 +147,27 @@
   <!--点击冒点-->
   <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://blog-static.cnblogs.com/files/elkyo/mouse-click.js"></script>
 ```
+
+ ## 功能讲解
+ 
+名称|类型|默认值/实例|描述
+--|:--:|--:|--:
+Youself|字符串|https://www.cnblogs.com/miluluyo/|个人博客园首链接
+custom|数组|[{
+   name:'相册',
+   link:'https://www.cnblogs.com/elkyo/gallery.html',
+   istarget:false
+  },{
+   name:'技能树',
+   link:'https://miluluyo.github.io/',
+   istarget:true
+  },{
+   name:'留言板',
+   link:'https://miluluyo.github.io/p/11578505.html',
+   istarget:false
+  }]|导航信息
+name 导航名
+link 导航链接
+istarget true跳转到新页面上，false当前页面打开
+ 
+
