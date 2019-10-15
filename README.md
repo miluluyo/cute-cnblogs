@@ -60,21 +60,25 @@
   <script>
   miluframe({
       /*个人链接地址*/
-    Youself:'https://www.cnblogs.com/wxc-0708/',
+    Youself:'https://www.cnblogs.com/miluluyo/',
     /*自己的友链页面后缀*/
-    Friends_of_the:'p/11672927.html',
-    /*导航信息*/
+    Friends_of_the:'p/11633791.html',
+    /*导航栏信息*/
     custom:[{
       name:'留言板',
-      link:'https://www.cnblogs.com/wxc-0708/p/11672897.html',
+      link:'https://www.cnblogs.com/miluluyo/p/11578505.html',
       istarget:false
+    },{
+      name:'技能树',
+      link:'https://miluluyo.github.io/',
+      istarget:true
     }],
     /*自己的友链信息*/
     resume:{
-        "name":"王小聪",
-        "link":"https://www.cnblogs.com/wxc-0708/",
-        "headurl":"https://pic.cnblogs.com/avatar/1781678/20191014180355.png",
-        "introduction":"hello！"
+        "name":"麋鹿鲁哟",
+        "link":"https://www.cnblogs.com/miluluyo",
+        "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg",
+        "introduction":"大道至简，知易行难。"
     },
     /*友链信息*/
     unionbox:[{
@@ -89,7 +93,7 @@
         "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
       }],
     /*github链接*/
-    githuburl:'https://github.com/wxc0708'
+    githuburl:'https://github.com/miluluyo'
   })
   </script>
 ```
