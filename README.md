@@ -34,4 +34,112 @@
  
  ## 使用方法
 
+**页面定制CSS代码**
 
+(```)
+  #home{display:none}
+  .showpage {position: fixed;width: 100%;height: 100%;text-align: center;left: 0;top: 0;}
+  .showpage img{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+(```)
+
+**页首Html代码**
+
+(```)
+  <div class="showpage" id="showpage"> <img src="https://images.cnblogs.com/cnblogs_com/elkyo/1566714/o_showpage .gif"> <div>
+  <link rel='stylesheet' href='https://blog-static.cnblogs.com/files/elkyo/cute-cnblogs.css'>
+  <link rel='stylesheet' href='https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css'>
+  <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/siyuan.css" />
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://blog-static.cnblogs.com/files/elkyo/monitoring.js"></script>
+  <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/OwO.min.css" />
+  <script src="https://blog-static.cnblogs.com/files/elkyo/OwO.min.js"></script>
+  <script src="https://blog-static.cnblogs.com/files/elkyo/cute-cnblogs.js"></script>
+  <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+  <script src="https://blog-static.cnblogs.com/files/elkyo/three.min.js"></script>
+  <script src='https://blog-static.cnblogs.com/files/elkyo/star.js'></script>
+  <script>
+  miluframe({
+      /*个人链接地址*/
+    Youself:'https://www.cnblogs.com/wxc-0708/',
+    /*自己的友链页面后缀*/
+    Friends_of_the:'p/11672927.html',
+    /*导航信息*/
+    custom:[{
+      name:'留言板',
+      link:'https://www.cnblogs.com/wxc-0708/p/11672897.html',
+      istarget:false
+    }],
+    /*自己的友链信息*/
+    resume:{
+        "name":"王小聪",
+        "link":"https://www.cnblogs.com/wxc-0708/",
+        "headurl":"https://pic.cnblogs.com/avatar/1781678/20191014180355.png",
+        "introduction":"hello！"
+    },
+    /*友链信息*/
+    unionbox:[{
+        "name":"麋鹿鲁哟",
+        "introduction":"生活是没有标准答案的。",
+        "url":"https://www.cnblogs.com/miluluyo",
+        "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
+      },{
+        "name":"麋鹿鲁哟的技能树",
+        "introduction":"大道至简，知易行难。",
+        "url":"https://miluluyo.github.io/",
+        "headurl":"https://images.cnblogs.com/cnblogs_com/elkyo/1558759/o_o_my.jpg"
+      }],
+    /*github链接*/
+    githuburl:'https://github.com/wxc0708'
+  })
+  </script>
+(```)
+
+**页脚Html代码**
+
+(```)
+  <!-- 底部加了小鱼<・)))><<~ -->
+  <div id="jsi-flying-fish-container" class="container"></div>
+  <script src='https://blog-static.cnblogs.com/files/elkyo/fish.js'></script>
+  <style>
+  @media only screen and (max-width: 767px){
+  #sidebar_search_box input[type=text]{width:calc(100% - 24px)}
+  }
+  </style>
+
+  <!--音乐-->
+  <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.css">
+  <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="3025663508" data-server="netease" data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
+  <script src="https://blog-static.cnblogs.com/files/elkyo/APlayer.min.js"></script>
+  <script src="https://blog-static.cnblogs.com/files/elkyo/Meting.min.js"></script>
+
+  <!--看板娘 - 猫-->
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+  <script>
+      L2Dwidget.init({
+          "model": {
+              jsonPath: "https://unpkg.com/live2d-widget-model-hijiki/assets/hijiki.model.json",<!--这里改模型，前面后面都要改-->
+              "scale": 1
+          },
+          "display": {
+              "position": "left",<!--设置看板娘的上下左右位置-->
+              "width": 100,
+              "height": 200,
+              "hOffset": 70,
+              "vOffset": 0
+          },
+          "mobile": {
+              "show": true,
+              "scale": 0.5
+          },
+          "react": {
+              "opacityDefault": 0.7,<!--设置透明度-->
+              "opacityOnHover": 0.2
+          }
+      });
+  window.onload = function(){
+       $("#live2dcanvas").attr("style","position: fixed; opacity: 0.7; left: 70px; bottom: 0px; z-index: 1; pointer-events: none;")
+  }
+  </script>
+  <!--点击冒点-->
+  <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://blog-static.cnblogs.com/files/elkyo/mouse-click.js"></script>
+(```)
