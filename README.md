@@ -36,15 +36,15 @@
 
 **页面定制CSS代码**
 
-(```)
+``` css
   #home{display:none}
   .showpage {position: fixed;width: 100%;height: 100%;text-align: center;left: 0;top: 0;}
   .showpage img{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
-(```)
+``` 
 
 **页首Html代码**
 
-(```)
+``` html
   <div class="showpage" id="showpage"> <img src="https://images.cnblogs.com/cnblogs_com/elkyo/1566714/o_showpage .gif"> <div>
   <link rel='stylesheet' href='https://blog-static.cnblogs.com/files/elkyo/cute-cnblogs.css'>
   <link rel='stylesheet' href='https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css'>
@@ -92,11 +92,11 @@
     githuburl:'https://github.com/wxc0708'
   })
   </script>
-(```)
+```
 
 **页脚Html代码**
 
-(```)
+```html
   <!-- 底部加了小鱼<・)))><<~ -->
   <div id="jsi-flying-fish-container" class="container"></div>
   <script src='https://blog-static.cnblogs.com/files/elkyo/fish.js'></script>
@@ -142,4 +142,4 @@
   </script>
   <!--点击冒点-->
   <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://blog-static.cnblogs.com/files/elkyo/mouse-click.js"></script>
-(```)
+```
