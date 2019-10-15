@@ -56,6 +56,7 @@
 <br/>
 * 最后分别复制以下区域代码，并根据参数更改数据（PS：路径可进行更改也可不更改，自行down文件上传到博客园文件中，并更改引入路径）
 
+>建议将https://blog-static.cnblogs.com/files/elkyo/cute-cnblogs.css引入内的内容放到 页面定制CSS代码 区域
 
 **页首Html代码**
 
