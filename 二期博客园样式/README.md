@@ -23,7 +23,7 @@
 可爱的博客园样式美化、自定义博客园样式  ღゝ◡╹)ノ♡
 
 * :book: 本样式以简约可爱为核心，美化博客园的显示效果，增加自定义导航；
-* :shaved_ice: 基于博客园主题“SimpleMemory”进行的样式修改；
+* :shaved_ice: 基于博客园主题 “Custom” 进行的样式修改；
 * :strawberry: 阅读目录导航；
 * :palm_tree: 支持响应式；
 
@@ -262,17 +262,16 @@ milusidebar({
 #mainContent{width:90%}
 </style>
 <link href="https://blog-static.cnblogs.com/files/miluluyo/tippy.min.css" rel="stylesheet">
-<script src="https://blog-static.cnblogs.com/files/miluluyo/popper.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2.4.2/dist/umd/popper.min.js"></script>
 <script src="https://blog-static.cnblogs.com/files/miluluyo/tippy.js"></script>
-<link rel='stylesheet' href='https://blog-static.cnblogs.com/files/miluluyo/animate.min.css'>
-<script src="https://blog-static.cnblogs.com/files/miluluyo/font_1825850_klax1ao4o6.js"></script>
+<link rel='stylesheet' href='https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css'>
+<script src="https://at.alicdn.com/t/font_1825850_klax1ao4o6.js"></script>
 <script src="https://blog-static.cnblogs.com/files/miluluyo/three.min.js"></script>
 <script src='https://blog-static.cnblogs.com/files/miluluyo/star.js'></script>
 <link rel="stylesheet" href="https://blog-static.cnblogs.com/files/miluluyo/OwO.min.css" />
 <script src="https://blog-static.cnblogs.com/files/miluluyo/OwO2.min.js"></script>
 <script src="https://blog-static.cnblogs.com/files/miluluyo/cute-cnblogs2.js"></script>
 <script src="https://blog-static.cnblogs.com/files/miluluyo/monitoring2.js"></script>
-
 <script>
 
 miluframe({
