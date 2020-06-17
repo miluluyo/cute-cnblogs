@@ -25,7 +25,7 @@
 ![Image text](https://raw.githubusercontent.com/miluluyo/photo_gallery/master/cute-cnblogs.jpg)  
 
 ## [二期博客园框架样式](https://github.com/miluluyo/cute-cnblogs/tree/master/%E4%BA%8C%E6%9C%9F%E5%8D%9A%E5%AE%A2%E5%9B%AD%E6%A0%B7%E5%BC%8F)
-![Image text](https://raw.githubusercontent.com/miluluyo/photo_gallery/master/cute-cnblogs.jpg) 
+![Image text](https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200617103910bg.png) 
 
 ## 最后
 
