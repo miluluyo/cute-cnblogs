@@ -27,7 +27,7 @@
 * :strawberry: 阅读目录导航；
 * :palm_tree: 支持响应式；
 
-![Image text](https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200617103910bg.png)  
+![Image text](https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200618044407bg2.png)  
 
 ## 功能
 
@@ -630,11 +630,11 @@ istarget true跳转到新页面上，false当前页面打开</td>
 ```
 
 
-更多内容请查看 [cute-cnblogs 自定义番外篇]()
-（PS：可以使用番外篇里的随机图片API喔~）
-
-
 ## 最后
+
+>更多内容请查看 [cute-cnblogs 自定义番外篇](https://www.cnblogs.com/miluluyo/p/setites.html)
+>（PS：可以使用番外篇里的随机图片API喔~）
+
 ### 请吃糖
 > 
 > <div align="left">
