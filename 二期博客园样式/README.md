@@ -622,13 +622,16 @@ istarget true跳转到新页面上，false当前页面打开</td>
 </table>
 
 ### 更换顶部背景图
-当前框架使用了今日bing的接口，也可以自己进行更换
+当前框架使用了一张图片，也可以自己进行更换成随机图片API
 
- 在css样式中
+在css样式中
 ```css
- #blogTitle{background:url(http://api.dujin.org/bing/1366.php) center center / cover no-repeat #222;overflow:hidden;width:100%;height:40vh;max-height:40vh;box-shadow:0 1px 2px rgba(150,150,150,.7);       /*搜索这个 更换 background: url() 里的链接 即可*/
+ #blogTitle{background:url(https://images.cnblogs.com/cnblogs_com/miluluyo/1764887/o_20051406472117.jpg) center center / cover no-repeat #222;overflow:hidden;width:100%;height:40vh;max-height:40vh;box-shadow:0 1px 2px rgba(150,150,150,.7);       /*搜索这个 更换 background: url() 里的链接 即可*/
 ```
 
+
+更多内容请查看 [cute-cnblogs 自定义番外篇]()
+（PS：可以使用番外篇里的随机图片API喔~）
 
 
 ## 最后
