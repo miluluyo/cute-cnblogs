@@ -23,11 +23,11 @@
 可爱的博客园样式美化、自定义博客园样式  ღゝ◡╹)ノ♡
 
 * :book: 本样式以简约可爱为核心，美化博客园的显示效果，增加自定义导航；
-* :shaved_ice: 基于博客园主题 “Custom” 进行的样式修改；
+* :shaved_ice: 基于博客园主题“SimpleMemory”进行的样式修改；
 * :strawberry: 阅读目录导航；
 * :palm_tree: 支持响应式；
 
-![Image text](https://raw.githubusercontent.com/miluluyo/photo_gallery/master/cute-cnblogs.jpg)  
+![Image text](https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200617103910bg.png)  
 
 ## 功能
 
@@ -196,7 +196,8 @@ milusidebar({
 			url 跳转链接<br>
 			title 提示名字<br>
 			classname 要添加的class名<br>
-			click 是否允许点击跳转</td>
+			click 是否允许点击跳转<br>
+			本框架有扩展的icon，文件在 github 中的 icon 文件夹内，可以下载去查看</td>
 	 	</tr>
 	 	<tr>
 	 		<td>signature</td>
@@ -248,6 +249,8 @@ milusidebar({
     </div>
 </div>
 <script src='https://blog-static.cnblogs.com/files/miluluyo/canvas2.js'></script>
+<!--
+<link href="//files.cnblogs.com/files/linianhui/lnh.cnblogs.css" rel="stylesheet"/>-->
 ```
 
 **页脚Html代码**
@@ -272,6 +275,7 @@ milusidebar({
 <script src="https://blog-static.cnblogs.com/files/miluluyo/OwO2.min.js"></script>
 <script src="https://blog-static.cnblogs.com/files/miluluyo/cute-cnblogs2.js"></script>
 <script src="https://blog-static.cnblogs.com/files/miluluyo/monitoring2.js"></script>
+
 <script>
 
 miluframe({
@@ -352,9 +356,9 @@ miluframe({
     /*文章页面标题前的图标，此处图标有扩展，下面会提到图标*/
     cuteicon:['icon-caomei','icon-boluo','icon-huolongguo','icon-chengzi','icon-hamigua','icon-lizhi','icon-mangguo','icon-liulian','icon-lizi','icon-lanmei','icon-longyan','icon-shanzhu','icon-pingguo','icon-mihoutao','icon-niuyouguo','icon-xigua','icon-putao','icon-xiangjiao','icon-ningmeng','icon-yingtao','icon-taozi','icon-shiliu','icon-ximei','icon-shizi'],
     /*赞赏，若true则显示此按钮，false则不显示*/
-    isGratuity:true
+    isGratuity:true,
     /*赞赏按钮焦点显示赞赏内容，内容可自行更改*/
-    gratuity:'<div class="popper_box"><p><b>要请我喝奶茶吗  (づ｡◕ᴗᴗ◕｡)づ</b> </p><div class="popper_box_con"><div class="popper_box_con_li"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200521053817wx.png" alt="">微信扫码</div><div class="popper_box_con_li"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200521053827zfb.png" >支付宝扫码</div></div><p><b>留下一句你觉得很励志与美的话给我吧~</b>&nbsp;&nbsp;<b><a href="https://www.cnblogs.com/miluluyo/p/12930946.html">GO</a></b></div>',
+    gratuity:'<div class="popper_box"><p><b>要请我喝奶茶吗  (づ｡◕ᴗᴗ◕｡)づ</b> </p><div class="popper_box_con"><div class="popper_box_con_li"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200521053817wx.png" alt="">微信扫码</div><div class="popper_box_con_li"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200521053827zfb.png" >支付宝扫码</div></div><p><b>留下一句你觉得很励志与美的话给我吧~</b>&nbsp;&nbsp;<b><a href="https://www.cnblogs.com/miluluyo/p/12930946.html">GO</a></b></div>'
 })
 </script>
 <!-- 点赞 -->
@@ -600,7 +604,7 @@ istarget true跳转到新页面上，false当前页面打开</td>
 	 		<td>cuteicon</td>
 	 		<td>数组</td>
 	 		<td>['icon-caomei','icon-boluo','icon-huolongguo','icon-chengzi','icon-hamigua','icon-lizhi','icon-mangguo','icon-liulian','icon-lizi','icon-lanmei','icon-longyan','icon-shanzhu','icon-pingguo','icon-mihoutao','icon-niuyouguo','icon-xigua','icon-putao','icon-xiangjiao','icon-ningmeng','icon-yingtao','icon-taozi','icon-shiliu','icon-ximei','icon-shizi']</td>
-	 		<td>文章页面标题前的图标，此处图标有扩展，下面会提到图标</td>
+	 		<td>文章页面标题前的图标，此处图标我只放入了一些水果的icon，不过可以自己引入文件进行修改名字添加自己想加的，本框架有扩展的icon，文件在 github 中的 icon 文件夹内，可以下载去查看</td>
 	 	</tr>
 	 	<tr>
 	 		<td>gratuity</td>
@@ -617,8 +621,13 @@ istarget true跳转到新页面上，false当前页面打开</td>
  	</tbody>
 </table>
 
+### 更换顶部背景图
+当前框架使用了今日bing的接口，也可以自己进行更换
 
-
+ 在css样式中
+```css
+ #blogTitle{background:url(http://api.dujin.org/bing/1366.php) center center / cover no-repeat #222;overflow:hidden;width:100%;height:40vh;max-height:40vh;box-shadow:0 1px 2px rgba(150,150,150,.7);       /*搜索这个 更换 background: url() 里的链接 即可*/
+```
 
 
 
