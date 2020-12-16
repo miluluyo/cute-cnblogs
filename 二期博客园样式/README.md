@@ -665,3 +665,14 @@ istarget true跳转到新页面上，false当前页面打开</td>
 ></div>
 ></div>
 > 
+
+
+##更新
+
+###2020.12.11
+
+>博客园更新后顶部出现的条目，用下方代码可以隐藏
+
+```css
+div#top_nav { display:none } 
+```
