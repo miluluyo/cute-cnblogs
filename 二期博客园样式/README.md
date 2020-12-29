@@ -672,4 +672,5 @@ istarget true跳转到新页面上，false当前页面打开</td>
 
 ```css
 div#top_nav { display:none } 
+div#bannerbar {display: none;}
 ```
