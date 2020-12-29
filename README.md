@@ -32,12 +32,9 @@
 
 
 > 
-> 为了响应大家的号召，方便大家技术交流，之前建立了一个微信群，如果大家有需要可以扫码（或者搜我微信号：s978761）加我好友，我邀请你加入～本群是一个纯交流学习工作的群，不准发布广告、营销相关的信息！对了，加我记得备注上：博客园+名称 加群 喔~
+> 为了响应大家的号召，方便大家技术交流，之前建立了一个微信群，如果大家有需要可以关注公众号，发送“加群”即可～本群是一个纯交流学习工作的群，不准发布广告、营销相关的信息！
 >
 > 
-><div style="display: inline-block; vertical-align: top; padding: 5px;"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1493340/t_wxh.jpg" alt="" width="207" height="207" style="width: 150px; height: 150px;" />
-><p style="text-align: center;">微信号：s978761</p>
-></div>
 ><div style="display: inline-block; vertical-align: top; padding: 5px;"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200614064005qrcode.jpg" alt="" width="206" height="206" style="width: 150px; height: 150px;" />
 ><p style="text-align: center;">公众号：麋鹿鲁哟</p>
 ></div>
