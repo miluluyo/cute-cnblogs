@@ -657,7 +657,7 @@ istarget true跳转到新页面上，false当前页面打开</td>
 > 为了响应大家的号召，方便大家技术交流，之前建立了一个微信群，如果大家有需要可以关注公众号，发送“加群”即可～本群是一个纯交流学习工作的群，不准发布广告、营销相关的信息！
 >
 > 
-><div style="display: inline-block; vertical-align: top; padding: 5px;"><img src="https://images.cnblogs.com/cnblogs_com/miluluyo/1765646/o_200614064005qrcode.jpg" alt="" width="206" height="206" style="width: 150px; height: 150px;" />
+><div style="display: inline-block; vertical-align: top; padding: 5px;"><img src="https://raw.githubusercontent.com/miluluyo/photo_gallery/master/qrcode.jpg" alt="" width="206" height="206" style="width: 150px; height: 150px;" />
 ><p style="text-align: center;">公众号：麋鹿鲁哟</p>
 ></div>
 ></div>
