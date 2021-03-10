@@ -674,3 +674,28 @@ istarget true跳转到新页面上，false当前页面打开</td>
 div#top_nav { display:none } 
 div#bannerbar {display: none;}
 ```
+
+
+### 2021.03.10
+
+
+> 博客园移动端页面上划时偶尔抖动问题已修复
+
+https://blog-static.cnblogs.com/files/miluluyo/cute-cnblogs2.js 链接更改为 https://blog-static.cnblogs.com/files/miluluyo/cute-cnblogs3.js
+
+
+> 音乐自动播放
+
+```javascript
+<script> 
+let ref = setInterval(function(){
+    isaplay();
+},2000);
+function isaplay(){
+    if($(".aplayer-play").length == 1){
+        $(".aplayer-play").click()
+        clearInterval(ref);
+    }
+}
+</script>
+```
